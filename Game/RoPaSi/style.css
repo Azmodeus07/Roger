@@ -1,0 +1,53 @@
+ *{ 
+Margin:10px;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color:aqua;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.game{
+    /* display: flex; */
+    /* align-items: center; */
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    left: 40px;
+}
+button img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 7px solid ;
+    /* border-style: double groove; */
+}
+button{
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+table th{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+}
+table td{
+    background-color: azure;
+    color: blue;
+    border: 2px solid black;
+    text-align: center;
+}
+#reset-btn img{
+    height: 50px;
+    width: 50px;
+
+}
