@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Play - Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="game">
+        <button onclick="userMove='Rock';
+         getComputerMove();
+         evaluateMove(userMove,comMove);
+         console.log(`usermove is ${userMove} ComputerMove is ${comMove}  result is  ${result}` ); " class="elem">
+            <img src="rock.jpg" alt="Rock"></button>
+        <button onclick="userMove='Paper'; 
+        getComputerMove();
+        evaluateMove(userMove,comMove);
+         console.log(`usermove is ${userMove} ComputerMove is ${comMove}  result is  ${result}` );" class="elem">
+            <img src="paper.jpg" alt="Paper"></button>
+        <button onclick="userMove='Scissors'; 
+        getComputerMove();
+        evaluateMove(userMove,comMove);
+        console.log(`usermove is ${userMove} ComputerMove is ${comMove}  result is  ${result}` );" class="elem">
+            <img src="scissors.jpg" alt="Scissors"></button>
+        <button class="elem" id="reset-btn">
+            <img src="reload.jpg" alt="Relaod"></button>
+    </div>
+    <h1>Game Summary</h1>
+    <table class="summary">
+        <tr>
+            <th>Wins</th>
+            <th>Loses</th>
+            <th>Ties</th>
+            <th>Games Played</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+    <h1>Game History</h1>
+    <table class="history">
+        <tr>
+            <th>#</th>
+            <th>User Move</th>
+            <th>Computer Move</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

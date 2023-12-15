@@ -1,0 +1,26 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color: black;
+/* color: white; */
+}
+.main{
+    width: 70px;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.main div img{
+    height:200px;
+    width: 400px;
+    /* align-items: center; */
+}
